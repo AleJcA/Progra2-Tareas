@@ -23,5 +23,11 @@ namespace Ejersicio_1_Semana_2.Modelos
 
         }
 
+        public int hacerViaje(int kms)
+        {
+            this.kms += kms;
+
+            return kms;
+        }
     }
 }
